@@ -584,8 +584,6 @@ export class MemberDashboardComponent implements OnInit {
     this.editForm.get('associationName')?.updateValueAndValidity()
     this.editForm.get('registeredOrganization')?.setValidators(Validators.required)
     this.editForm.get('registeredOrganization')?.updateValueAndValidity()
-    this.editForm.get('nameRegisteredOrganization')?.setValidators(Validators.required)
-    this.editForm.get('nameRegisteredOrganization')?.updateValueAndValidity()
     this.editForm.get('aboutCompany')?.setValidators(Validators.required)
     this.editForm.get('aboutCompany')?.updateValueAndValidity()
     this.editForm.get('sidmChampionAwards')?.setValidators(Validators.required)
